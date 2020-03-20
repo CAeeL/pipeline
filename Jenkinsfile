@@ -42,7 +42,8 @@ pipeline {
                         steps {
                             echo 'Running the Integration test ...'
                         }
-                    }     
+                    }   
+                }      
             }
         }
 }
