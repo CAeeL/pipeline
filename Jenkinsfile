@@ -36,7 +36,7 @@ pipeline {
                         agent {
                             docker {
                                 reuseNode false
-                                image 'Busybox'
+                                image 'busybox'
                             }
                         }
                         steps {
